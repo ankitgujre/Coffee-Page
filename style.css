@@ -75,3 +75,13 @@ html,body{
 .hero-image img{
     width: 100%;
 }
+
+.heroText h5{
+    color: white;
+}
+.heroText h1{
+    color: white;
+}
+.heroText p{
+    color: white;
+}
