@@ -18,6 +18,11 @@ html,body{
     justify-content: space-between;
     align-items: center;
     padding: 32px 7%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 }
 
 .navLinks{
@@ -50,5 +55,23 @@ html,body{
 
 .navLinks li a:hover{
     color: #ae957a;
-    transform: translateY(5px);
+    transform: translateY(5px) !important;
+}
+
+#hero{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./bg.png);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    padding: 0 7%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-image img{
+    width: 100%;
 }
